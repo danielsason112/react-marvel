@@ -1,0 +1,54 @@
+import './Footer.css';
+
+function Footer() {
+    return (
+        <footer className="footer">
+            <nav className="footer-nav">
+                <img className="m-logo" src="./m_logo.svg" />
+                <div className="flex">
+                    <ul className="footer-nav-sec font-bold">
+                        <a className="footer-link" href="#">About</a>
+                        <a className="footer-link" href="#">Marvel API</a>
+                        <a className="footer-link" href="#">GitHub</a>
+                        <a className="footer-link" href="#">More</a>
+                    </ul>
+
+                    <ul className="footer-nav-sec">
+                        <a className="footer-link" href="#">Terms of Use</a>
+                        <a className="footer-link" href="#">Privacy Policy</a>
+                        <a className="footer-link" href="#">License Agreement</a>
+                        <a className="footer-link" href="#">I Am Groot</a>
+                    </ul>
+                </div>
+                <div className="footer-social">
+                    <h4>Social Media</h4>
+                    <div>
+                        <a href="#">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTEzNy42LDIyLjkzMzMzaC0xMDMuMmMtNi4zMzUzMywwIC0xMS40NjY2Nyw1LjEzMTMzIC0xMS40NjY2NywxMS40NjY2N3YxMDMuMmMwLDYuMzM1MzMgNS4xMzEzMywxMS40NjY2NyAxMS40NjY2NywxMS40NjY2N2g1Ny4zMzMzM3YtNTEuNmgtMTcuMnYtMTcuMmgxNy4ydi05LjIzNjRjMCwtMTcuNDg2NjcgOC41MTk3MywtMjUuMTYzNiAyMy4wNTM3MywtMjUuMTYzNmM2Ljk2MDI3LDAgMTAuNjQxMDcsMC41MTYgMTIuMzg0LDAuNzUxMDd2MTYuNDQ4OTNoLTkuOTEyOTNjLTYuMTY5MDcsMCAtOC4zMjQ4LDMuMjU2NTMgLTguMzI0OCw5Ljg0OTg3djcuMzUwMTNoMTguMDgyOTNsLTIuNDUzODcsMTcuMmgtMTUuNjI5MDd2NTEuNmgyOC42NjY2N2M2LjMzNTMzLDAgMTEuNDY2NjcsLTUuMTMxMzMgMTEuNDY2NjcsLTExLjQ2NjY3di0xMDMuMmMwLC02LjMzNTMzIC01LjEzNzA3LC0xMS40NjY2NyAtMTEuNDY2NjcsLTExLjQ2NjY3eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" />
+                        </a>
+
+                        <a href="#">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTU3LjMyMjE0LDE3LjJjLTIyLjEyNDkzLDAgLTQwLjEyMjE0LDE4LjAxMzg2IC00MC4xMjIxNCw0MC4xNDQ1M3Y1Ny4zMzMzM2MwLDIyLjEyNDkzIDE4LjAxMzg2LDQwLjEyMjE0IDQwLjE0NDUzLDQwLjEyMjE0aDU3LjMzMzMzYzIyLjEyNDkzLDAgNDAuMTIyMTQsLTE4LjAxMzg2IDQwLjEyMjE0LC00MC4xNDQ1M3YtNTcuMzMzMzNjMCwtMjIuMTI0OTMgLTE4LjAxMzg2LC00MC4xMjIxNCAtNDAuMTQ0NTMsLTQwLjEyMjE0ek0xMjYuMTMzMzMsNDAuMTMzMzNjMy4xNjQ4LDAgNS43MzMzMywyLjU2ODUzIDUuNzMzMzMsNS43MzMzM2MwLDMuMTY0OCAtMi41Njg1Myw1LjczMzMzIC01LjczMzMzLDUuNzMzMzNjLTMuMTY0OCwwIC01LjczMzMzLC0yLjU2ODUzIC01LjczMzMzLC01LjczMzMzYzAsLTMuMTY0OCAyLjU2ODUzLC01LjczMzMzIDUuNzMzMzMsLTUuNzMzMzN6TTg2LDUxLjZjMTguOTcxNiwwIDM0LjQsMTUuNDI4NCAzNC40LDM0LjRjMCwxOC45NzE2IC0xNS40Mjg0LDM0LjQgLTM0LjQsMzQuNGMtMTguOTcxNiwwIC0zNC40LC0xNS40Mjg0IC0zNC40LC0zNC40YzAsLTE4Ljk3MTYgMTUuNDI4NCwtMzQuNCAzNC40LC0zNC40ek04Niw2My4wNjY2N2MtMTIuNjY1NzMsMCAtMjIuOTMzMzMsMTAuMjY3NiAtMjIuOTMzMzMsMjIuOTMzMzNjMCwxMi42NjU3MyAxMC4yNjc2LDIyLjkzMzMzIDIyLjkzMzMzLDIyLjkzMzMzYzEyLjY2NTczLDAgMjIuOTMzMzMsLTEwLjI2NzYgMjIuOTMzMzMsLTIyLjkzMzMzYzAsLTEyLjY2NTczIC0xMC4yNjc2LC0yMi45MzMzMyAtMjIuOTMzMzMsLTIyLjkzMzMzeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" />            </a>
+
+                        <a href="#">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTEzNy42LDIyLjkzMzMzaC0xMDMuMmMtNi4zMzUzMywwIC0xMS40NjY2Nyw1LjEzMTMzIC0xMS40NjY2NywxMS40NjY2N3YxMDMuMmMwLDYuMzM1MzMgNS4xMzEzMywxMS40NjY2NyAxMS40NjY2NywxMS40NjY2N2gxMDMuMmM2LjMzNTMzLDAgMTEuNDY2NjcsLTUuMTMxMzMgMTEuNDY2NjcsLTExLjQ2NjY3di0xMDMuMmMwLC02LjMzNTMzIC01LjEzNzA3LC0xMS40NjY2NyAtMTEuNDY2NjcsLTExLjQ2NjY3ek0xMzAuMDgzNiw3Ny4yNTA5M2MtMC43NDUzMywwLjA2ODggLTEuNDk2NCwwLjExNDY3IC0yLjI1MzIsMC4xMTQ2N2MtOC41NzEzMywwIC0xNi4xMDQ5MywtNC40MDMyIC0yMC40OTA5MywtMTEuMDcxMDdjMCwxNy40ODA5MyAwLDM3LjM3NTYgMCwzNy43MDgxM2MwLDE1LjM5NCAtMTIuNDgxNDcsMjcuODY5NzMgLTI3Ljg2OTczLDI3Ljg2OTczYy0xNS4zODgyNywtMC4wMDU3MyAtMjcuODY5NzMsLTEyLjQ4NzIgLTI3Ljg2OTczLC0yNy44NzU0N2MwLC0xNS4zOTQgMTIuNDgxNDcsLTI3Ljg2OTczIDI3Ljg2OTczLC0yNy44Njk3M2MwLjU4NDgsMCAxLjE1MjQsMC4wNTE2IDEuNzIsMC4wODZ2MTMuNzM3MDdjLTAuNTczMzMsLTAuMDY4OCAtMS4xMjk0NywtMC4xNzIgLTEuNzIsLTAuMTcyYy03Ljg1NDY3LDAgLTE0LjIyNDQsNi4zNjk3MyAtMTQuMjI0NCwxNC4yMjQ0YzAsNy44NTQ2NyA2LjM2NCwxNC4yMjQ0IDE0LjIyNDQsMTQuMjI0NGM3Ljg2MDQsMCAxNC43OTc3MywtNi4xOTIgMTQuNzk3NzMsLTE0LjA0NjY3YzAsLTAuMzE1MzMgMC4xMzc2LC02NC4wNDEzMyAwLjEzNzYsLTY0LjA0MTMzaDEzLjEyMzZjMS4yMzI2NywxMS43MzYxMyAxMC43MDk4NywyMS4wMDEyIDIyLjU1NDkzLDIxLjg0OTczeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" />            </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTE2MC41MzMzMywzOS43NzIxM2MtNS40ODY4LDIuNDM2NjcgLTExLjM4MDY3LDQuMDc2NCAtMTcuNTY2OTMsNC44MTZjNi4zMTgxMywtMy43ODQgMTEuMTYyOCwtOS43NzUzMyAxMy40NDQ2NywtMTYuOTE5MDdjLTUuOTA1MzMsMy41MDMwNyAtMTIuNDUyOCw2LjA0ODY3IC0xOS40MjQ1Myw3LjQyNDY3Yy01LjU3ODUzLC01Ljk0NTQ3IC0xMy41MjQ5MywtOS42NjA2NyAtMjIuMzE5ODcsLTkuNjYwNjdjLTE2Ljg5MDQsMCAtMzAuNTgxNiwxMy42OTY5MyAtMzAuNTgxNiwzMC41ODE2YzAsMi4zOTY1MyAwLjI3NTIsNC43MzU3MyAwLjc5MTIsNi45NjZjLTI1LjQxNTg3LC0xLjI3MjggLTQ3Ljk0Nzg3LC0xMy40NTA0IC02My4wMzgsLTMxLjk1NzZjLTIuNjI1ODcsNC41MTc4NyAtNC4xMzM3Myw5Ljc2OTYgLTQuMTMzNzMsMTUuMzgyNTNjMCwxMC42MDY2NyA1LjM5NTA3LDE5Ljk2OTIgMTMuNTk5NDcsMjUuNDUwMjdjLTUuMDEwOTMsLTAuMTYwNTMgLTkuNzI5NDcsLTEuNTM2NTMgLTEzLjg1MTczLC0zLjgyNDEzYzAsMC4xMzE4NyAwLDAuMjUyMjcgMCwwLjM4NDEzYzAsMTQuODIwNjcgMTAuNTM3ODcsMjcuMTgxNzMgMjQuNTMyOTMsMjkuOTg1MzNjLTIuNTYyOCwwLjY5OTQ3IC01LjI2ODkzLDEuMDcyMTMgLTguMDYxMDcsMS4wNzIxM2MtMS45NjY1MywwIC0zLjg4NzIsLTAuMTk0OTMgLTUuNzUwNTMsLTAuNTQ0NjdjMy44OTI5MywxMi4xNDg5MyAxNS4xODc2LDIwLjk5NTQ3IDI4LjU2OTIsMjEuMjQyYy0xMC40NjMzMyw4LjIwNDQgLTIzLjY1LDEzLjA5NDkzIC0zNy45ODMzMywxMy4wOTQ5M2MtMi40NjUzMywwIC00LjkwMiwtMC4xNDMzMyAtNy4yOTg1MywtMC40M2MxMy41MzY0LDguNjc0NTMgMjkuNjA2OTMsMTMuNzM3MDcgNDYuODgxNDcsMTMuNzM3MDdjNTYuMjU1NDcsMCA4Ny4wMDkwNywtNDYuNjAwNTMgODcuMDA5MDcsLTg3LjAxNDhjMCwtMS4zMjQ0IC0wLjAyODY3LC0yLjY0MzA3IC0wLjA4NiwtMy45NTZjNS45Nzk4NywtNC4zMTcyIDExLjE2ODUzLC05LjcwMDggMTUuMjY3ODcsLTE1LjgyOTczeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" />            </a>
+
+                        <a href="#">
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTg2LDIyLjkzMzMzYy0yMy45OTk3MywwIC01NS4xNDk3NCw2LjAxMzI4IC01NS4xNDk3NCw2LjAxMzI4bC0wLjA3ODM5LDAuMDg5NThjLTEwLjkzMDc0LDEuNzQ4MTYgLTE5LjMwNTIxLDExLjE0MDg1IC0xOS4zMDUyMSwyMi41NjM4djM0LjR2MC4wMTEydjM0LjM4ODh2MC4wMTEyYzAuMDIyMDMsMTEuMjY5NjcgOC4yMjkwNSwyMC44NTMyMyAxOS4zNjEyLDIyLjYwODU5bDAuMDIyNCwwLjAzMzZjMCwwIDMxLjE1MDAxLDYuMDI0NDggNTUuMTQ5NzQsNi4wMjQ0OGMyMy45OTk3MywwIDU1LjE0OTc0LC02LjAyNDQ4IDU1LjE0OTc0LC02LjAyNDQ4bDAuMDExMiwtMC4wMTEyYzExLjE0NDk2LC0xLjc1MTc2IDE5LjM2MDQ5LC0xMS4zNDkyMSAxOS4zNzIzOSwtMjIuNjMwOTl2LTAuMDExMnYtMzQuMzg4OHYtMC4wMTEydi0zNC40Yy0wLjAxNjU0LC0xMS4yNzM5MSAtOC4yMjQ4NywtMjAuODYzNzYgLTE5LjM2MTIsLTIyLjYxOTc5bC0wLjAyMjM5LC0wLjAzMzU5YzAsMCAtMzEuMTUwMDEsLTYuMDEzMjggLTU1LjE0OTc0LC02LjAxMzI4ek02OC44LDU5LjYxNzcxbDQ1Ljg2NjY3LDI2LjM4MjI5bC00NS44NjY2NywyNi4zODIyOXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" />            </a>
+                    </div>
+                </div>
+            </nav>
+            <div className="footer-attr">
+                <p>
+                    Developed by <a href="https://github.com/danielsason112/">danielsason112</a>. Data provided by <a href="http://marvel.com">Marvel</a>. © 2014 Marvel
+                </p>
+            </div>
+        </footer>
+    )
+}
+
+export default Footer;

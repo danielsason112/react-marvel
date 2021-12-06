@@ -1,0 +1,40 @@
+.footer {
+    min-height: 30vh;
+    @apply flex flex-col bg-black text-white w-full;
+  }
+  
+  .footer-nav {
+    @apply flex flex-wrap w-full px-4 sm:px-16 py-8 m-auto items-start justify-center;
+  }
+  
+  .footer-nav-sec {
+    @apply flex flex-col px-8 sm:px-16;
+  }
+  
+  .footer-link {
+    @apply mb-2
+  }
+  
+  .m-logo {
+    @apply w-20 mb-8;
+  }
+  
+  .footer-social {
+    @apply px-16 mt-8 sm:mt-0;
+  }
+  
+  .footer-social h4 {
+    @apply font-bold mb-4;
+  }
+  
+  .footer-social a {
+    @apply inline-block mr-8;
+  }
+  
+  .footer-attr {
+    @apply text-center pb-4 px-4;
+  }
+  
+  .footer-attr a {
+    @apply text-gray-400;
+  }

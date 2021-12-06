@@ -1,0 +1,11 @@
+.header {
+    @apply relative w-full box-border px-8 py-4 sm:px-16 flex justify-between items-center z-10;
+  }
+  
+  .header-logo {
+    @apply w-20 sm:w-24 md:w-28 lg:w-32;
+  }
+  
+  .header-search-icon {
+    @apply h-6 sm:h-8;
+  }

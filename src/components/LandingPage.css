@@ -1,0 +1,23 @@
+.hero {
+    min-height: 70vh;
+    z-index: 1;
+    @apply relative w-full -mt-16 sm:-mt-20 md:-mt-24 lg:-mt-28;
+  }
+  
+  .hero-bg {
+    background-image: url("https://i.annihil.us/u/prod/marvel/html_blocks_assets/loyalty/avengers.jpg");
+    @apply absolute inset-0 bg-cover opacity-30;
+  }
+  
+  .hero-content {
+    min-height: 70vh;
+    @apply relative max-w-2xl px-8 text-center m-auto flex flex-col justify-center items-center text-white;
+  }
+  
+  .hero-content h1 {
+    @apply font-bold text-5xl mb-4;
+  }
+  
+  .hero-content h2 {
+    @apply text-2xl;
+  }
