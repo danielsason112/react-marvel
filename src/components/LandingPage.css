@@ -21,3 +21,11 @@
   .hero-content h2 {
     @apply text-2xl;
   }
+
+  .carousels-wrapper {
+    @apply w-full;
+  }
+
+  .row-h {
+    @apply text-white text-2xl mt-4 ml-8;
+  }
